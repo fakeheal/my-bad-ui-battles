@@ -9,7 +9,7 @@ Why not.
 ## Demos
 
 - [Preview: Please, confirm your password](./please-confirm-password/please-confirm-password.gif)
-> ⚠ *Important*: This demo has a background that rapidly changes it colors. People with photosensitive epilepsy should avoid it.  
+> ⚠ **Important**: This demo has a background that rapidly changes its color. People with photosensitive epilepsy should avoid it.  
 
 
 ## License
