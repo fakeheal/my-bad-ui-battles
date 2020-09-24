@@ -8,7 +8,7 @@ Why not.
 
 ## Demos
 
-- [Preview: Please, confirm your password](./please-confirm-password/please-confirm-password.gif)
+- **Please, confirm your password**: [GIF](./please-confirm-password/please-confirm-password.gif) | [Web](https://itodorova.works/my-bad-ui-battles/please-confirm-password/)
 > ⚠ **Important**: This demo has a background that rapidly changes its color. People with photosensitive epilepsy should avoid it.  
 
 
