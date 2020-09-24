@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up for Awesome Product Limited</title>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="./local.css">
+</head>
+<body>
+<h1 class="site-title">
+    Join Awesome Product today!
+</h1>
+<div class="container">
+    <form class="form" method="post" id="form-create-account">
+        <div class="form-group">
+            <label for="name">
+                Your name:
+            </label>
+            <input type="text" id="name" />
+        </div>
+        <div class="form-group">
+            <label for="email">
+                Email:
+            </label>
+            <input type="email" id="email" />
+        </div>
+        <div class="form-group">
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" />
+        </div>
+        <button type="submit" id="create-account" class="btn">
+            Create Account
+        </button>
+    </form>
+    <div id="flashy-confirm-password-overlay" class="hidden">
+        <h2>
+            ⚠️
+            Attention! Are you sure you want to use this password?
+            ⚠️
+        </h2>
+        <h1 id="text-confirm-password">
+
+        </h1>
+        <button id="button-confirm-password" class="btn">
+            Yes, I am
+        </button>
+    </div>
+</div>
+<script src="local.js"></script>
+</body>
+</html>

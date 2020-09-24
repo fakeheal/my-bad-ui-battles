@@ -1,0 +1,53 @@
+#flashy-confirm-password-overlay {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10vh;
+    animation: background-overlay 1.5s linear infinite;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+}
+
+#flashy-confirm-password-overlay.hidden {
+    display: none;
+}
+
+.form.hidden {
+    display: none;
+}
+
+#flashy-confirm-password-overlay h1,
+#flashy-confirm-password-overlay h2 {
+    text-align: center;
+}
+
+#flashy-confirm-password-overlay h1 {
+    font-size: 52px;
+}
+
+#button-confirm-password {
+    animation: background-overlay 800ms linear infinite;
+    align-self: center;
+    width: auto;
+    border: 2px solid #fff;
+}
+
+@keyframes background-overlay {
+    0%,
+    100% {
+        background-color: #ffffff;
+        color: red;
+        border-color: red;
+    }
+    50% {
+        background-color: red;
+        color: #fff;
+        border-color: #fff;
+    }
+}

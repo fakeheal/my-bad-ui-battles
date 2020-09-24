@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.site-title {
+    text-align: center;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 300px;
+    border: 1px solid #e1e2e4;
+    padding: 20px 30px;
+}
+
+.form .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form label {
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"] {
+    height: 35px;
+    font-size: 14px;
+}
+
+.btn {
+    width: 100%;
+    background-color: darkturquoise;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    border-radius: 16px;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
